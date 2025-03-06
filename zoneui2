@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
     ThemeManager.Library = nil
     ThemeManager.BuiltInThemes = {
-        ['Default']         = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"32 96 255","BackgroundColor":"141414","OutlineColor":"323232"}') }, -- AccentColor changed to blue
+        ['Default']         = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0F190F","AccentColor":"28B94B","BackgroundColor":"101A10","OutlineColor":"0B140B"}') },
         ['Venom']           = { 2, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0E0E0E","AccentColor":"32 96 255","BackgroundColor":"0E0E0E","OutlineColor":"0B0B0B"}') }, -- AccentColor changed to blue
         ['Cyan']            = { 1, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"32 96 255","BackgroundColor":"101010","OutlineColor":"0B0B0B"}') }, -- AccentColor changed to blue
         ['Burn']            = { 4, httpService:JSONDecode('{"FontColor":"FF8200","MainColor":"0C0C0C","AccentColor":"32 96 255","BackgroundColor":"0C0C0C","OutlineColor":"0C0C0C"}') }, -- AccentColor changed to blue
